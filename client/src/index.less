@@ -1,0 +1,122 @@
+body {
+  max-width:540px;
+  height: 100vh;
+  min-width:320px;
+  margin: 0 auto;
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 1;
+  display: flex;
+  .header_setting {
+    flex: 7;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    div {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem;
+      border: 1px solid red;
+      height: 2.7rem;
+      width: 80%;
+      input {
+        position: relative;
+        font-size: 1.5rem;
+        display: block;
+        border: none;
+        width: 70%;
+      }
+    }
+    .air_t {
+      
+    }
+    .air_h {
+      
+    }
+    .light_i {
+      
+    }
+  }
+  .header_btn {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .data_submission {
+      display: block;
+      border-radius: 30%;
+      height: 6rem;
+      width: 6rem;
+    }
+  }
+}
+
+main {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    border-bottom: 1px solid red;
+    border-radius: 1rem;
+    position: relative;
+    height: 4rem;
+    width: 80%;
+  }
+  .air_t_show {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 4rem;
+      border-radius: 1rem;
+      width: 4rem;
+      background-color: red;
+    }
+  }
+  .air_h_show {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 4rem;
+      border-radius: 1rem;
+      width: 4rem;
+      background-color: red;
+    }
+  }
+  .light_i_show {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 4rem;
+      border-radius: 1rem;
+      width: 4rem;
+      background-color: red;
+    }
+  }
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    width: 7rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+}
