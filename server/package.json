@@ -1,0 +1,21 @@
+{
+  "name": "course-design",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "@types/websocket": "^1.0.0"
+  },
+  "main": "index.ts",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "socket.io": "^2.3.0",
+    "websocket": "^1.0.30"
+  },
+  "description": ""
+}
