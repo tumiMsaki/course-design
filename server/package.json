@@ -13,9 +13,11 @@
   },
   "main": "index.ts",
   "dependencies": {
+    "@types/ws": "^6.0.3",
     "koa": "^2.11.0",
     "socket.io": "^2.3.0",
-    "websocket": "^1.0.30"
+    "websocket": "^1.0.30",
+    "ws": "^7.2.0"
   },
   "description": ""
 }
