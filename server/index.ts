@@ -21,6 +21,8 @@ wss.on("connection", function connection(ws) {
   })
 
   setInterval(() => {
-    ws.send(Math.random())
-  }, 10)
+    ws.send(
+      [Math.random(),Math.random(),Math.random()]
+    )
+  }, 1000)
 })
