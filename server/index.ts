@@ -1,5 +1,5 @@
 import http from "http"
-import WebSocket from "ws"
+import WebSocket from "ws" 
 
 const server: http.Server = http.createServer((request, response) => {
   console.log(new Date() + " Received request for " + request.url)
@@ -21,8 +21,7 @@ wss.on("connection", function connection(ws) {
   })
 
   setInterval(() => {
-    ws.send(
-      [Math.random(),Math.random(),Math.random()]
-    )
+    let data = '13#222#444#4444'
+    ws.send(data)
   }, 1000)
 })
