@@ -21,7 +21,7 @@ wss.on("connection", function connection(ws) {
   })
 
   setInterval(() => {
-    let data = '13#222#444#4444'
+    let data = '13#22#44444'
     ws.send(data)
   }, 1000)
 })

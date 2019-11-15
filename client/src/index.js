@@ -1,5 +1,5 @@
 import "./index.less"
-var ws = new WebSocket("ws://localhost:8000")
+var ws = new WebSocket("ws://192.168.43.247:8000")
 ws.binaryType = "arraybuffer";
 const $ = name => {
   return document.querySelector(`.${name}`)
