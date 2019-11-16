@@ -45,9 +45,9 @@ class BtnClick {
   }
 }
 
-let btn1 = new BtnClick(ventilation,'1234')
-btn1.click()
-let btn2 = new BtnClick(sprinkler_irrigation,'1234')
-btn2.click()
-let btn3 = new BtnClick(fill_light,'1234')
-btn3.click()
+// let btn1 = new BtnClick(ventilation,'1234')
+// btn1.click()
+// let btn2 = new BtnClick(sprinkler_irrigation,'1234')
+// btn2.click()
+// let btn3 = new BtnClick(fill_light,'1234')
+// btn3.click()
