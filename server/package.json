@@ -11,9 +11,12 @@
     "@types/node": "^12.12.7",
     "@types/websocket": "^1.0.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "main": "index.ts",
   "dependencies": {
+    "@types/koa": "^2.0.52",
     "@types/ws": "^6.0.3",
     "koa": "^2.11.0",
     "socket.io": "^2.3.0",

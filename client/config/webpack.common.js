@@ -8,7 +8,7 @@ module.exports = {
     app: "./src/index.js"
   },
   output: {
-    filename: "[name].[hash:8].js",
+    filename: "[chunk].[hash:8].js",
     path: path.resolve(__dirname, "../dist"),
     publicPath: "/"
   },
